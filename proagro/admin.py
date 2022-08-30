@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Productor, Tillage, OcurredEvent
 
-# Register your models here.
+
+@admin.register(Productor, Tillage, OcurredEvent)
+class ProagroAdmin(admin.ModelAdmin):
+    ...
