@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views_set import OcurredEventViewSet, ProductorViewSet, TillageViewSet
+from .views import OcurredEventViewSet, ProductorViewSet, TillageViewSet
 
 
 router = DefaultRouter()
